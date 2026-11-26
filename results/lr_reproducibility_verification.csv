@@ -1,0 +1,4 @@
+Model,Training Successful,Coefficients Match,Maximum Coefficient Difference
+Baseline,True,True,0.0
+Ridge,True,True,0.0
+Lasso,True,True,0.0

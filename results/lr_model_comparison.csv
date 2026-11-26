@@ -1,0 +1,4 @@
+Model,Best C,Mean CV Accuracy,CV Standard Deviation,L2 Coefficient Norm,Non-zero Coefficients
+Unregularized Logistic Regression,inf,0.9324116396134485,0.005852281578756113,21.25555006238924,7
+Ridge Logistic Regression,100.0,0.9337247301407844,0.006130584931437509,18.52483727142263,7
+Lasso Logistic Regression,1.0,0.9340531373657432,0.008151493665715331,6.083647044152005,4

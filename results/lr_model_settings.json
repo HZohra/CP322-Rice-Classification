@@ -1,0 +1,44 @@
+{
+    "random_state": 42,
+    "feature_names": [
+        "Area",
+        "Perimeter",
+        "Major_Axis_Length",
+        "Minor_Axis_Length",
+        "Eccentricity",
+        "Convex_Area",
+        "Extent"
+    ],
+    "class_encoding": {
+        "Cammeo": 0,
+        "Osmancik": 1
+    },
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "scoring": "accuracy",
+    "preprocessing": "StandardScaler",
+    "experiment_status": "preliminary",
+    "baseline": {
+        "regularization": "None",
+        "C": "Infinity",
+        "solver": "lbfgs",
+        "max_iter": 10000,
+        "tol": 1e-08
+    },
+    "ridge": {
+        "regularization": "L2",
+        "l1_ratio": 0.0,
+        "C": 100.0,
+        "solver": "lbfgs",
+        "max_iter": 10000,
+        "tol": 1e-08
+    },
+    "lasso": {
+        "regularization": "L1",
+        "l1_ratio": 1.0,
+        "C": 1.0,
+        "solver": "saga",
+        "max_iter": 50000,
+        "tol": 1e-06
+    }
+}
